@@ -20,6 +20,6 @@ class Database:
         self.connection.close()
 
 if __name__ == "__main__":
-    database = Database("practice")
-    database.create_table("first_table", "first_column", "INTEGER")
+    database = Database("Hunts")
+    database.create_table("Shiny", "Encounters", "INTEGER")
     database.close()
